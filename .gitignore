@@ -1,0 +1,19 @@
+# Dependencias de Node.js (se reinstalan con "npm install", no se versionan)
+node_modules/
+
+# Archivos de configuración con credenciales sensibles
+.env
+.env.local
+*.env
+
+# Archivos y carpetas que genera Firebase al desplegar
+.firebase/
+firebase-debug.log
+
+# Archivos del sistema operativo (basura de macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Carpeta de compilación/build (si más adelante usamos alguna herramienta de build)
+dist/
+build/
