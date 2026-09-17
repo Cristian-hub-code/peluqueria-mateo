@@ -14,10 +14,10 @@ Peluqueria Mateo es un sitio web estatico en espanol para presentar trabajos de 
 
 ## Comandos
 
-- `npm install`: instala las dependencias.
-- `npm run dev`: inicia el servidor de desarrollo.
-- `npm run build`: genera la compilacion de produccion en `dist/`.
-- `npm run preview`: sirve localmente la compilacion generada.
+- `pnpm install`: instala las dependencias.
+- `pnpm dev`: inicia el servidor de desarrollo.
+- `pnpm build`: genera la compilacion de produccion en `dist/`.
+- `pnpm preview`: sirve localmente la compilacion generada.
 
 ## Convenciones
 
@@ -30,4 +30,4 @@ Peluqueria Mateo es un sitio web estatico en espanol para presentar trabajos de 
 
 ## Validacion
 
-Antes de entregar cambios, ejecutar `npm run build`. Para cambios de comportamiento del navegador, comprobar tambien el flujo del boton de agenda en `npm run dev`.
+Antes de entregar cambios, ejecutar `pnpm build`. Para cambios de comportamiento del navegador, comprobar tambien el flujo del boton de agenda en `pnpm dev`.
