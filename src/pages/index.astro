@@ -1,0 +1,45 @@
+---
+import "../styles/base.css";
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Peluqueria Mateo: cortes modernos y agenda tu cita en segundos." />
+    <title>Peluqueria Mateo</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">Peluqueria Mateo</div>
+      <nav class="header__nav" aria-label="Navegacion principal">
+        <a href="#galeria">Galeria</a>
+        <a href="#agendar">Agendar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="agendar">
+        <h1 class="hero__titulo">Estilo que se nota</h1>
+        <p class="hero__subtitulo">Cortes modernos, agenda tu cita en segundos</p>
+        <button class="boton-cta" id="btnAgendar" type="button">Agendar cita</button>
+      </section>
+
+      <section id="galeria" class="galeria">
+        <h2 class="galeria__titulo">Nuestros trabajos</h2>
+        <div class="galeria__grid">
+          <div class="galeria__item">Foto 1</div>
+          <div class="galeria__item">Foto 2</div>
+          <div class="galeria__item">Foto 3</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Peluqueria Mateo</p>
+    </footer>
+
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
