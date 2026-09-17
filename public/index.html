@@ -9,8 +9,34 @@
 </head>
 <body>
 
-  <h1>Peluquería Mateo</h1>
-  <p>Sitio en construcción — Paso 4 del proyecto.</p>
+  <header class="header">
+    <div class="header__logo">Peluquería Mateo</div>
+    <nav class="header__nav">
+      <a href="#galeria">Galería</a>
+      <a href="#agendar">Agendar</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="hero__titulo">Estilo que se nota</h1>
+    <p class="hero__subtitulo">Cortes modernos, agenda tu cita en segundos</p>
+    <button class="boton-cta" id="btnAgendar">Agendar cita</button>
+  </section>
+
+  <section id="galeria" class="galeria">
+    <h2 class="galeria__titulo">Nuestros trabajos</h2>
+    <div class="galeria__grid">
+      <!-- Aquí irán las fotos/videos de los cortes.
+           Por ahora, un marcador temporal para ver la estructura. -->
+      <div class="galeria__item">Foto 1</div>
+      <div class="galeria__item">Foto 2</div>
+      <div class="galeria__item">Foto 3</div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Peluquería Mateo</p>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
